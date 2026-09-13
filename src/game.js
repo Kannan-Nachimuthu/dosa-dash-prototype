@@ -1,6 +1,3 @@
-// src/game.js
-import Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js';
-
 const WIDTH = 360;
 const HEIGHT = 640;
 
@@ -349,5 +346,3 @@ const config = {
 };
 
 const game = new Phaser.Game(config);
-
-export default game;
